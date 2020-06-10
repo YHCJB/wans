@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="static/lounge/indsty.css">
+    <link rel="stylesheet" type="text/css" href="static/lounge/demo.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1829744_9zhvqozxxxm.css">
+    <title>WANS的个人网站</title>
+</head>
+<body>
+    <div id="scroll">
+        <!-- 顶部导航栏区域 -->
+        <div class="topNav">
+            <div class="navIn">
+                <div class="title">
+                    <span></span>
+                    <span><a href="index.html">WANS</a></span>
+                </div>
+                <div class="nav">
+                    <a href="#">商品橱窗<span class="iconfont icon-dibu"></span></a>
+                    <ul id="hiedNav">
+                        <li>
+                            <a href="commedity.html">源码购买<span></span></a>                                                      
+                        </li>
+                        <li>
+                            <span>图片精修</span>                                                        
+                        </li>
+                        <li>
+                            <span>原画约稿</span>                                                        
+                        </li>
+                        <li>
+                            <span>网页定制</span>
+                        </li>
+                        <li>
+                            <span>使用问题咨询</span>
+                        </li>
+                    </ul>
+                    <a href="source.html">免费学习资源</a>
+                    <a href="#">博客列表</a>
+                    <a href="#">小说推荐</a>
+                    <a href="coop.html">与我合作</a>
+                </div>
+                <div class="input">
+                    <input type="text" placeholder="请输入内容">
+                    <span class="iconfont icon-fangdajing"></span>
+                    <a class="denglu" href="javascript:;">登录/ 注册</a>
+                </div>
+            </div>
+        </div>
+        <div id="tableContainer">
+            <div id="tableRow">
+                <section id="display">
+                    <p style="font: 25px '微软雅黑'; font-weight: 400; margin-top: 15px;">动画演示</p>
+                    <div style="margin-top: 50px;">
+                        <video width="820" height="400" controls autoplay>
+                            <source src="static/img/commedity.mp4" type="video/mp4">
+                            <object data="movie.mp4" width="320" height="240">
+                                <embed width="420" height="200" src="img/video/movie.swf">
+                            </object>
+                        </video>
+                    </div>
+                </section>
+                <section id="intro">
+                    <div style="border: 2px darksalmon solid; width: 400px; margin-left: 50px;">
+                        <div style="padding-left: 30px; padding-top: 20px; padding-bottom: 10px;">
+                            <p style="font: 25px '微软雅黑'; font-weight: 400; margin-bottom: 5px;">商品名称:&nbsp;&nbsp;汽车模型</p><br>
+                            <p style="font: 18px '微软雅黑'; font-weight: 600; margin-bottom: 5px;">价格</p>
+                            <p style="color: red; font:22px '微软雅黑';">￥4.90</p>
+                        </div>
+                        <div style="padding-left: 30px; padding-top: 10px; padding-bottom: 30px;">
+                            <p style="font: 18px '微软雅黑'; font-weight: 600; margin-bottom: 5px;">购买方式</p>
+                            <div>
+                                <p style="font: 17px '宋体';">请扫描下方二维码付款</p>
+                                <img src="static/img/charge.jpg" style="width: 130px; height: 130px;">
+                                <p style="font: 17px '宋体';">然后填写您的订单</p>
+                                <div class="dind">
+                                    <form action="success.html" method="POST" style="width: 340px; margin-left: 20px;">
+                                        <p style="text-align: center; padding-top: 10px; padding-bottom: 5px;">订单</p>
+                                        商品名称：<input type="text" name="name" required><br>
+                                        收货邮箱：<input type="text" name="email" required><br>
+                                        购买凭证：<input type="file" name="profile">
+                                        <input type="submit" value="下单" style="margin-left: 300px; margin-bottom: 10px;">
+                                    </form>
+                                </div>
+                                <br>
+                                <p style="font: 15px '宋体';">*下单成功后，我们将于3分钟内验证信息并给订单填写邮箱发送商品。感谢您购买我们的产品</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
