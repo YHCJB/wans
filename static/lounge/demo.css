@@ -1,0 +1,30 @@
+div#tableContainer {
+    margin-top: 10px;
+	display: table;
+    border-spacing: 10px;
+    margin-left: 80px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+div.dind {
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591825191186&di=2bcf19d3342544b898f90bd60bd82651&imgtype=0&src=http%3A%2F%2Fpic29.nipic.com%2F20130514%2F10918666_125335254000_2.jpg");
+    background-size: 100% 100%;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+section#display {
+    display: table-cell;
+    padding: 15px;
+    vertical-align: top;
+}
+
+
+section#intro {
+  display: table-cell;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
